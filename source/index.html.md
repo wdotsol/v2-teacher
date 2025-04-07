@@ -94,6 +94,15 @@ Auto-generated documentation <a href="https://drift-labs.github.io/protocol-v2/s
   Latest TS dependencies can be found on GitHub <a href="https://github.com/drift-labs/protocol-v2/blob/master/sdk/package.json">here</a>
 </aside>
 
+<aside class="notice">
+  <p><strong>When signing as a delegate, make sure to:</strong></p>
+  <ol>
+    <li>Initialize the client as a delegate</li>
+    <li>Double check that <code>taker_pubkey</code> and <code>signing_authority</code> are passed in correctly</li>
+  </ol>
+</aside>
+
+
 
 ## Python
 Install driftpy from PyPI using pip:
